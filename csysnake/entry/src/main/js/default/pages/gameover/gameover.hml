@@ -1,0 +1,8 @@
+<div class="container" onswipe="swipetofirstpage">
+    <text class="title1">game over</text>
+    <text class="title1">您的得分</text>
+    <text class="title">
+        {{score}}
+    </text>
+    <button value="返回" class="btn" type="capsule" onclick="tofirstpage"></button>
+</div>

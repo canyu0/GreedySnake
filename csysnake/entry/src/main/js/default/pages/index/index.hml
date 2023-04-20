@@ -1,0 +1,21 @@
+<stack class="container" onswipe="tofirstpage">
+    <div class="top">
+        <button class="topbutton" onclick="leftclick">
+        </button>
+        <button class="topbutton" onclick="rightclick">
+        </button>
+    </div>
+    <text>{{way}}</text>
+    <div class="bottom">
+        <block for="{{a}}">
+        <div if="{{b[$idx]}}" class="map">
+           <div if="{{bean[$idx]}}" class="bean"></div>
+            <div if="{{snake[$idx]}}" class={{snakecolor}}>
+                <div if="{{$idx==head}}" class="head"></div>
+            </div>
+        </div>
+        <div else class="invismap"></div>
+        </block>
+
+    </div>
+</stack>

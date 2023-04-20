@@ -1,0 +1,7 @@
+<div class="container" onswipe="swipetofirstpage">
+    <text class="title">
+        正在开发\n敬请期待
+    </text>
+    <button value="返回" class="btn" type="capsule" onclick="tofirstpage"></button>
+</div>
+

@@ -1,0 +1,12 @@
+<div id="wrapper" onswipe="quit">
+    <stack id="stack1">
+        <image id="image1" src="R-C.jpg"></image>
+        <stack id="div1">
+            <div id="div2"></div>
+            <text id="text1">彩虹贪吃蛇</text>
+
+        </stack>
+        <button id="button1" type="capsule" value="开始" onclick="toindex"></button>
+        <image id="image2" src="setting2.jpg" onclick="tosetting"></image>
+    </stack>
+</div>

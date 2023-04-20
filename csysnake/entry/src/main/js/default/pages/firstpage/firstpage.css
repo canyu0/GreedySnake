@@ -1,0 +1,54 @@
+#wrapper {
+    flex-direction: column;
+    width: 100%;
+}
+
+#stack1 {
+    width: 100%;
+    height: 100%;
+}
+
+#image1 {
+    width: 100%;
+    height: 100%;
+    top: 4px;
+    left: 1px;
+    min-width: 100%;
+    min-height: 100%;
+}
+#div1{
+    height: 35.79295154185022px;
+    width: 170px;
+    top: 44px;
+    left: 45px;
+
+}
+#div2 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+}
+#text1 {
+    height: 100%;
+    width: 100%;
+    color: #5EA1FF;
+    /*background-color: yellow;*/
+}
+
+#button1 {
+    width: 44.56857880731971%;
+    height: 33.43630481577893px;
+    top: 111px;
+    left: 70px;
+    text-color: #FF7500;
+}
+
+#image2 {
+    width: 52.99828544253104px;
+    height: 45.05510362434922px;
+    top: 154px;
+    left: 93px;
+    opacity: 0.95;
+}
+

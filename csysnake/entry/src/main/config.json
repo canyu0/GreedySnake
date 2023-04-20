@@ -1,0 +1,62 @@
+{
+  "app": {
+    "bundleName": "com.example.csysnake",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.csysnake",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.csysnake.MainAbility",
+    "deviceType": [
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "visible": true,
+        "name": "com.example.csysnake.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/firstpage/firstpage",
+          "pages/index/index",
+          "pages/setting/setting",
+          "pages/gameover/gameover",
+          "pages/comingsoon/comingsoon"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 454,
+          "autoDesignWidth": true
+        }
+      }
+    ]
+  }
+}

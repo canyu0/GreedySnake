@@ -1,0 +1,27 @@
+<div id="wrapper" onswipe="swipetofirstpage">
+    <div id="div1">
+        <text id="text1">设置</text>
+        <list id="list1" scrolleffect="spring" divider="true" >
+            <list-item id="fill"></list-item>
+            <list-item id="list-item1">
+                <text id="button1" onclick="tocomingsoon" >难度</text>
+            </list-item>
+            <list-item id="list-item2">
+                <text id="button2" onclick="tocomingsoon" >地图</text>
+            </list-item>
+            <list-item id="list-item3">
+                <text id="button3" onclick="tocomingsoon">色彩</text>
+            </list-item>
+            <list-item id="list-item4">
+                <text id="button4" onclick="tocomingsoon">声音</text>
+            </list-item>
+            <list-item id="list-item5">
+                <text id="button5" onclick="tocomingsoon">作者信息</text>
+            </list-item>
+            <list-item id="list-item5">
+                <text id="button5" onclick="tofirstpage">返回</text>
+            </list-item>
+            <list-item id="fill2"></list-item>
+        </list>
+    </div>
+</div>
